@@ -131,7 +131,20 @@
 	</footer>
 
 
-	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-auth.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyA_rlcoVTGdGZUCXx9_bBKi7kLQNECa43M",
+	    authDomain: "db-invie.firebaseapp.com",
+	    databaseURL: "https://db-invie.firebaseio.com",
+	    projectId: "db-invie",
+	    storageBucket: "db-invie.appspot.com",
+	    messagingSenderId: "810449301017"
+	  };
+	  firebase.initializeApp(config);
+	</script>
 	<script src="js/index.js"></script>
 
 </body>
