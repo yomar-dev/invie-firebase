@@ -126,7 +126,6 @@ article img{
 }
 
 .menu li:before{
-	content: "•";
 	line-height: 20px;
 	color: #fff;
 }
