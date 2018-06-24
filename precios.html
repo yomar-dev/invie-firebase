@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Precios - Guitarras Invisibles</title>
+	<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="header" class="header background"> <!-- header -->
+
+
+		<div class="contenedor">
+			<figure class="logo"> <!-- logo -->
+				<img src="images/invie.png" alt="Logo Invie">
+			</figure>
+
+			<nav class="menu"> <!-- menu -->
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+
+					<li>
+						<a href="index.html#guitarras">Guitarras</a>
+					</li>
+
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+				</ul>	
+			</nav>
+		</div>
+
+	</header>
+
+	<section class="tabla">
+		<div class="contenedor">
+			<table>
+				<!-- <caption>Precios guitarras invie</caption> -->
+				<thead>
+					<tr>
+						<th>Modelo</th>
+						<th>Precio</th>
+						<th>Descripción</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Invie Classic</td>
+						<td>$150.000</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi. Nunc pulvinar, est et aliquet vulputate, massa nulla consequat tortor, id vehicula mauris velit nec quam. Ut ut nulla sodales, maximus metus a, sollicitudin ipsum.</td>
+					</tr>
+
+					<tr>
+						<td>Invie Classic</td>
+						<td>$150.000</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi. Nunc pulvinar, est et aliquet vulputate, massa nulla consequat tortor, id vehicula mauris velit nec quam. Ut ut nulla sodales, maximus metus a, sollicitudin ipsum.</td>
+					</tr>
+					
+					<tr>
+						<td>Invie Classic</td>
+						<td>$150.000</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi. Nunc pulvinar, est et aliquet vulputate, massa nulla consequat tortor, id vehicula mauris velit nec quam. Ut ut nulla sodales, maximus metus a, sollicitudin ipsum.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="contenedor">
+			<div class="contacto">
+				<img src="images/invie-white.png" alt="Logo Invie">
+				<a href="tel:+573210987654">
+					<strong>Teléfono</strong>
+					<span>3210987654</span>
+				</a>
+				
+				<a href="mailto:contacto@invie.com">
+					<strong>Email</strong>
+					<span>contacto@invie.com</span>
+				</a>
+			</div>
+
+			<form class="formulario">
+				<div class="col1">
+					<label for="nombre">Nombre</label>
+					<input type="text" id="nombre" name="nombre" required />
+
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required />
+
+					<div class="sexo">
+						<label for="mujer">
+							<input type="radio" id="mujer" name="sexo" value="mujer" checked> Mujer
+						</label>
+
+						<label for="hombre">
+							<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+						</label>
+					</div>
+
+					<div class="intereses">
+						<label for="cotizacion">
+							<input type="checkbox" id="cotizacion" name="intereses" value="cotizacion" checked> Cotización
+						</label>
+
+						<label for="reclamos">
+							<input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+						</label>
+
+						<label for="comentarios">
+							<input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+						</label>
+
+						<label for="otros">
+							<input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+						</label>
+					</div>
+				</div>
+
+				<div class="col2">
+					<label for="comentarios">Comentarios</label>
+					<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+					<input type="submit" name="" value="Enviar" class="button">
+				</div>
+			</form>
+		</div>
+	</footer>
+
+</body>
+</html>
