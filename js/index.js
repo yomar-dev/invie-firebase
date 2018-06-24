@@ -13,8 +13,8 @@ firebase.auth().onAuthStateChanged((user) => {
 
 btnLogin.addEventListener('click', (e) => {
 	e.preventDefault();
-	let provider = new firebase.auth.GoogleAuthProvider();
-	provider.addScope('https://www.googleapis.com/auth/contacts.readonly')
+	let provider = new firebase.auth.FacebookAuthProvider();
+	provider.addScope('public_profile');
 	firebase.auth().signInWithPopup(provider)
 		.then((datosUsuario) => {
 			console.log(datosUsuario);
