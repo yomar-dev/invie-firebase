@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "db-invie",
+    "invie": "db-invie"
+  }
+}
